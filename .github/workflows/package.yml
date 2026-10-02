@@ -1,0 +1,26 @@
+name: Package checks
+on:
+  push:
+  pull_request:
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install package
+        run: python -m pip install ./borehole-fracture-reconstruction
+      - name: Check source syntax
+        run: python -m compileall -q borehole-fracture-reconstruction/src
+      - name: Inspect CLI entry points
+        run: |
+          borehole-fracture --help
+          borehole-fracture segment --help
+          borehole-fracture characterize --help
+          borehole-fracture roughness --help
+          borehole-fracture reconstruct --help

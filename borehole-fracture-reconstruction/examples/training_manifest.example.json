@@ -1,0 +1,8 @@
+{
+  "samples": [
+    {"image": "images/source_a.jpg", "mask": "masks/source_a.png", "group_id": "source_a"},
+    {"image": "images/source_a_augmented.jpg", "mask": "masks/source_a_augmented.png", "group_id": "source_a"},
+    {"image": "images/source_b.jpg", "mask": "masks/source_b.png", "group_id": "source_b"},
+    {"image": "images/source_c.jpg", "mask": "masks/source_c.png", "group_id": "source_c"}
+  ]
+}

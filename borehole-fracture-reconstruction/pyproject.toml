@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "borehole-fracture-reconstruction"
+version = "0.1.0"
+description = "Borehole image segmentation, fracture characterization and 3D network reconstruction"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "pandas>=2,<3", "opencv-python-headless>=4.8,<5", "matplotlib>=3.7,<4"]
+
+[project.optional-dependencies]
+training = ["tensorflow>=2.16,<3"]
+
+[project.scripts]
+borehole-fracture = "borehole_fracture.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

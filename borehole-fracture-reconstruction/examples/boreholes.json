@@ -1,0 +1,10 @@
+{
+  "boreholes": [
+    {"borehole_id": "B01", "mouth_mm": [0, 0, 0], "depth_mm": 7000},
+    {"borehole_id": "B02", "mouth_mm": [1000, 0, 0], "depth_mm": 7000},
+    {"borehole_id": "B03", "mouth_mm": [2000, 0, 0], "depth_mm": 7000},
+    {"borehole_id": "B04", "mouth_mm": [0, 1000, 0], "depth_mm": 7000},
+    {"borehole_id": "B05", "mouth_mm": [1000, 1000, 0], "depth_mm": 7000},
+    {"borehole_id": "B06", "mouth_mm": [2000, 1000, 0], "depth_mm": 7000}
+  ]
+}
