@@ -1,0 +1,35 @@
+{
+  "description": "Existing analysis case illustrations; not a benchmark or a claim of current CLI output. Pixel colors, axes and labels are preserved.",
+  "assets": [
+    {
+      "asset": "fracture-segmentation.jpg",
+      "sha256": "cb06156d8303c9ac88166ec43d964d09fa989a231ead93f96b1495917f0f1ae3",
+      "kind": "existing borehole analysis case illustration"
+    },
+    {
+      "asset": "sinusoidal-fitting.png",
+      "sha256": "9265e1fb0332d037d15a714c86dfb4bf02b327c384e5f9ef55786b4cccc4b150",
+      "kind": "existing borehole analysis case illustration"
+    },
+    {
+      "asset": "contour-analysis.png",
+      "sha256": "2a76bcf5d2387a750c9af59d67a60ed1dd834df9809c5b82243542827285f9f4",
+      "kind": "existing borehole analysis case illustration"
+    },
+    {
+      "asset": "sampling-comparison.png",
+      "sha256": "aa205398e040e6980a0d7011b1100e76411790c7cf84be1a558f6067cf3d7782",
+      "kind": "existing borehole analysis case illustration"
+    },
+    {
+      "asset": "fracture-network-3d.png",
+      "sha256": "74c8ad2df09a85966a8938940eec34055b66c07b6fcc5db74828f657cb5c9b18",
+      "kind": "existing borehole analysis case illustration"
+    },
+    {
+      "asset": "uncertainty-map.png",
+      "sha256": "e9c3adcf81c321c9ab8f841a1e542062d787f77f1222cbc062b8b7ec1b8977b2",
+      "kind": "existing borehole analysis case illustration"
+    }
+  ]
+}

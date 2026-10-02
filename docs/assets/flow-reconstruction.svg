@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="988" height="335" viewBox="0 0 988 335" role="img" aria-labelledby="t">
+<title id="t">④ 三维重构与勘探规划 · reconstruct</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker>
+<marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#777777"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', sans-serif">
+<text x="20" y="26" font-size="15" font-weight="bold" fill="#1a1a1a">④ 三维重构与勘探规划 · reconstruct</text>
+<line x1="20" y1="34" x2="968" y2="34" stroke="#d0d0d0" stroke-width="1"/>
+<rect x="20.0" y="91.0" width="163.2" height="72.0" rx="6" fill="#f2f2f2" stroke="#333333" stroke-width="1.2"/>
+<text x="101.6" y="113.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">含 JRC 的参数表</text>
+<text x="101.6" y="136.0" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">fracture_parameters_</text>
+<text x="101.6" y="153.0" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">with_roughness.csv</text>
+<rect x="217.2" y="91.0" width="149.8" height="72.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="292.1" y="113.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">三维裂隙平面</text>
+<text x="292.1" y="136.0" font-size="12" fill="#555555" text-anchor="middle">法向量 · 倾角 · 倾向</text>
+<text x="292.1" y="153.0" font-size="12" fill="#555555" text-anchor="middle">右手系，Z 向上</text>
+<rect x="404.7" y="46.0" width="148.6" height="72.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="479.0" y="68.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">跨孔连接评分</text>
+<text x="479.0" y="91.0" font-size="12" fill="#555555" text-anchor="middle">0.5 距离 + 0.3 姿态</text>
+<text x="479.0" y="108.0" font-size="12" fill="#555555" text-anchor="middle">+ 0.2 JRC 相似度</text>
+<rect x="401.0" y="136.0" width="156.0" height="72.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="479.0" y="158.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">体素不确定性</text>
+<text x="479.0" y="181.0" font-size="12" fill="#555555" text-anchor="middle">到最近裂隙平面的距离</text>
+<text x="479.0" y="198.0" font-size="12" fill="#555555" text-anchor="middle">孔口阵列包围的有限空间</text>
+<rect x="591.0" y="46.0" width="145.4" height="72.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="663.7" y="68.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">候选关联</text>
+<text x="663.7" y="91.0" font-size="12" fill="#555555" text-anchor="middle">评分 ≥ --threshold</text>
+<rect x="603.7" y="136.0" width="120.0" height="72.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="663.7" y="158.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">贪心补孔排序</text>
+<text x="663.7" y="181.0" font-size="12" fill="#555555" text-anchor="middle">约束最小孔间距</text>
+<text x="663.7" y="198.0" font-size="12" fill="#555555" text-anchor="middle">仅保留正收益位置</text>
+<rect x="770.4" y="82.5" width="198.0" height="89.0" rx="6" fill="#f2f2f2" stroke="#333333" stroke-width="1.2"/>
+<text x="869.4" y="104.5" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">网络与规划结果</text>
+<text x="869.4" y="127.5" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">connections.csv</text>
+<text x="869.4" y="144.5" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">recommended_boreholes.csv</text>
+<text x="869.4" y="161.5" font-size="12" fill="#555555" text-anchor="middle">三维网络图 · 不确定性图</text>
+<path d="M183.2,127.0 L215.2,127.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M367.0,127.0 L384.8,127.0 L384.8,82.0 L402.7,82.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M367.0,127.0 L383.0,127.0 L383.0,172.0 L399.0,172.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M553.2,82.0 L589.0,82.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M557.0,172.0 L601.7,172.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M736.4,82.0 L752.4,82.0 L752.4,127.0 L768.4,127.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M723.7,172.0 L746.0,172.0 L746.0,127.0 L768.4,127.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="231.4" y="238.0" width="121.4" height="55.0" rx="6" fill="#ffffff" stroke="#777777" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="292.1" y="260.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">钻孔空间位置</text>
+<text x="292.1" y="283.0" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">boreholes.json</text>
+<path d="M292.1,238.0 L292.1,165.0" fill="none" stroke="#777777" stroke-width="1.3" stroke-dasharray="5 4" marker-end="url(#ad)"/>
+<text x="494.2" y="317.0" font-size="12" fill="#555555" text-anchor="middle">连接评分用于候选排序，不是经统计校准的概率；不确定性为几何代理量</text>
+</g>
+</svg>

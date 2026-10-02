@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1178" height="160" viewBox="0 0 1178 160" role="img" aria-labelledby="t">
+<title id="t">② 裂隙聚类与几何参数提取 · characterize</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker>
+<marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#777777"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', sans-serif">
+<text x="20" y="26" font-size="15" font-weight="bold" fill="#1a1a1a">② 裂隙聚类与几何参数提取 · characterize</text>
+<line x1="20" y1="34" x2="1158" y2="34" stroke="#d0d0d0" stroke-width="1"/>
+<rect x="20.0" y="54.5" width="100.6" height="55.0" rx="6" fill="#f2f2f2" stroke="#333333" stroke-width="1.2"/>
+<text x="70.3" y="76.5" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">裂隙掩码</text>
+<text x="70.3" y="99.5" font-size="12" fill="#555555" text-anchor="middle">masks/*.png</text>
+<rect x="154.6" y="46.0" width="132.0" height="72.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="220.6" y="68.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">连通域实例</text>
+<text x="220.6" y="91.0" font-size="12" fill="#555555" text-anchor="middle">8 连通</text>
+<text x="220.6" y="108.0" font-size="12" fill="#555555" text-anchor="middle">面积与横向覆盖筛选</text>
+<rect x="320.6" y="54.5" width="132.0" height="55.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="386.6" y="76.5" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">单值中心线</text>
+<text x="386.6" y="99.5" font-size="12" fill="#555555" text-anchor="middle">逐列取纵坐标中位数</text>
+<rect x="486.6" y="46.0" width="200.4" height="72.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="586.8" y="68.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">像素 → 物理坐标</text>
+<text x="586.8" y="91.0" font-size="12" fill="#555555" text-anchor="middle">x = 列号·πD/W</text>
+<text x="586.8" y="108.0" font-size="12" fill="#555555" text-anchor="middle">depth = 起始深度 + 行号·L/H</text>
+<rect x="721.0" y="46.0" width="218.9" height="72.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="830.4" y="68.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">固定周长正弦拟合</text>
+<text x="830.4" y="91.0" font-size="12" fill="#555555" text-anchor="middle">depth = C + R·sin(2πx/P + β)</text>
+<text x="830.4" y="108.0" font-size="12" fill="#555555" text-anchor="middle">线性初值 + soft-L1 最小二乘</text>
+<rect x="973.8" y="46.0" width="184.1" height="72.0" rx="6" fill="#f2f2f2" stroke="#333333" stroke-width="1.2"/>
+<text x="1065.9" y="68.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">参数表与轮廓</text>
+<text x="1065.9" y="91.0" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">fracture_parameters.csv</text>
+<text x="1065.9" y="108.0" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">profiles/*.csv</text>
+<path d="M120.6,82.0 L152.6,82.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M286.6,82.0 L318.6,82.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M452.6,82.0 L484.6,82.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M687.0,82.0 L719.0,82.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M939.8,82.0 L971.8,82.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
+<text x="589.0" y="142.0" font-size="12" fill="#555555" text-anchor="middle">输出振幅 R、相位 β、中心深度 C，以及 R²、RMSE、横向覆盖比例，便于筛选实例</text>
+</g>
+</svg>

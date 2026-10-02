@@ -2,6 +2,8 @@
 
 钻孔成像裂隙识别、几何表征与三维网络重构。项目把孔壁展开图转换为裂隙实例和物理参数，再结合多孔位置分析潜在连接关系，生成空间不确定性图及补充钻孔建议。
 
+本文件是项目目录内的使用指南，下文命令与相对路径均以本目录（含 `pyproject.toml`）为起点。总体流程图、模块流程图和钻孔图像分析案例见[仓库首页](../README.md)。
+
 ## 四项需求
 
 | 需求 | 模块 | 主要能力 |
@@ -76,7 +78,7 @@ borehole-fracture evaluate outputs/segmentation/masks \
 outputs/analysis/
 ├── segmentation/     原始掩码、增强掩码、图像叠加与识别记录
 ├── geometry/         几何参数表与逐条中心线
-├── roughness/        JRC、采样策略对比与密度敏感性表
+├── roughness/        JRC、采样策略对比、密度敏感性表与复制的轮廓文件
 ├── reconstruction/   三维裂隙、连接评分、不确定性与补孔结果
 └── run.json          本次流程的输入与配置
 ```
