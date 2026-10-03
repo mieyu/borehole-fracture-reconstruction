@@ -1,47 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1064" height="264" viewBox="0 0 1064 264" role="img" aria-labelledby="t">
-<title id="t">① 裂隙识别与连续性增强 · segment</title>
-<defs>
-<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker>
-<marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#777777"/></marker>
-</defs>
-<rect width="100%" height="100%" fill="#ffffff"/>
-<g font-family="Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', sans-serif">
-<text x="20" y="26" font-size="15" font-weight="bold" fill="#1a1a1a">① 裂隙识别与连续性增强 · segment</text>
-<line x1="20" y1="34" x2="1044" y2="34" stroke="#d0d0d0" stroke-width="1"/>
-<rect x="20.0" y="116.5" width="98.2" height="55.0" rx="6" fill="#f2f2f2" stroke="#333333" stroke-width="1.2"/>
-<text x="69.1" y="138.5" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">孔壁展开图</text>
-<text x="69.1" y="161.5" font-size="12" fill="#555555" text-anchor="middle">BGR 图像</text>
-<rect x="163.6" y="46.0" width="172.4" height="89.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
-<text x="249.8" y="68.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">经典图像处理（默认）</text>
-<text x="249.8" y="91.0" font-size="12" fill="#555555" text-anchor="middle">列向亮度校正</text>
-<text x="249.8" y="108.0" font-size="12" fill="#555555" text-anchor="middle">黑帽暗线提取 + Otsu</text>
-<text x="249.8" y="125.0" font-size="12" fill="#555555" text-anchor="middle">过滤细长竖直条纹</text>
-<rect x="152.2" y="153.0" width="195.3" height="89.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
-<text x="249.8" y="175.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">U-Net 推理（--model）</text>
-<text x="249.8" y="198.0" font-size="12" fill="#555555" text-anchor="middle">沿深度分块</text>
-<text x="249.8" y="215.0" font-size="12" fill="#555555" text-anchor="middle">重叠区概率平均</text>
-<text x="249.8" y="232.0" font-size="12" fill="#555555" text-anchor="middle">阈值 --threshold</text>
-<rect x="381.5" y="116.5" width="113.0" height="55.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
-<text x="438.0" y="138.5" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">形态学闭运算</text>
-<text x="438.0" y="161.5" font-size="12" fill="#555555" text-anchor="middle">连接横向短断点</text>
-<rect x="528.5" y="116.5" width="120.0" height="55.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
-<text x="588.5" y="138.5" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">霍夫线段</text>
-<text x="588.5" y="161.5" font-size="12" fill="#555555" text-anchor="middle">仅桥接邻近短间隙</text>
-<rect x="682.5" y="108.0" width="129.6" height="72.0" rx="6" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
-<text x="747.3" y="130.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">正弦拟合辅助</text>
-<text x="747.3" y="153.0" font-size="12" fill="#555555" text-anchor="middle">拟合 R² ≥ 0.7 时</text>
-<text x="747.3" y="170.0" font-size="12" fill="#555555" text-anchor="middle">沿曲线补小间隙</text>
-<rect x="846.1" y="108.0" width="198.0" height="72.0" rx="6" fill="#f2f2f2" stroke="#333333" stroke-width="1.2"/>
-<text x="945.1" y="130.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">裂隙掩码</text>
-<text x="945.1" y="153.0" font-size="12" fill="#555555" text-anchor="middle">raw/ · masks/ · overlays/</text>
-<text x="945.1" y="170.0" font-size="12" fill="#555555" text-anchor="middle">黑色裂隙 · 白色背景</text>
-<path d="M118.2,144.0 L139.9,144.0 L139.9,90.5 L161.6,90.5" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<path d="M118.2,144.0 L134.2,144.0 L134.2,197.5 L150.2,197.5" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<path d="M336.0,90.5 L357.7,90.5 L357.7,144.0 L379.5,144.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<path d="M347.5,197.5 L363.5,197.5 L363.5,144.0 L379.5,144.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<path d="M494.5,144.0 L526.5,144.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<path d="M648.5,144.0 L680.5,144.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<path d="M812.1,144.0 L844.1,144.0" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="418" viewBox="0 0 1040 418" role="img" aria-labelledby="title desc">
+<title id="title">需求 01｜裂隙识别与连续性增强</title><desc id="desc">SEGMENTATION  ·  ALTERNATIVE BACKENDS + STRUCTURE-AWARE REPAIR</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#454545"/></marker></defs>
+<rect width="1040" height="418" fill="#fff"/>
+<g font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#222">
+<text x="36" y="37" font-size="22" font-weight="600" text-anchor="start" fill="#222">需求 01｜裂隙识别与连续性增强</text>
+<text x="36" y="61" font-size="13" font-weight="400" text-anchor="start" fill="#666" letter-spacing="1.1">SEGMENTATION  ·  ALTERNATIVE BACKENDS + STRUCTURE-AWARE REPAIR</text>
+<path d="M36 77 H1004" fill="none" stroke="#aaa" stroke-width="0.8"/>
+<rect x="36" y="99" width="430" height="46" fill="#f4f4f4" stroke="#aaa" stroke-width="0.8"/>
+<text x="251.0" y="128" font-size="15" font-weight="400" text-anchor="middle" fill="#222">钻孔展开图像</text>
+<path d="M251 145 L251 168" fill="none" stroke="#454545" stroke-width="1.25" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="36" y="170" width="430" height="190" fill="#fff" stroke="#aaa" stroke-width="0.8"/>
+<text x="54" y="192" font-size="14" font-weight="600" text-anchor="start" fill="#222">分割后端 · 二选一</text>
+<rect x="54" y="207" width="394" height="62" fill="#fff" stroke="#555" stroke-width="1"/>
+<text x="251.0" y="233" font-size="17" font-weight="600" text-anchor="middle" fill="#222">经典图像分割</text>
+<text x="251.0" y="257" font-size="14" font-weight="400" text-anchor="middle" fill="#555">列光照校正 → Black-hat / Otsu → 竖纹抑制</text>
+<rect x="54" y="287" width="394" height="62" fill="#fff" stroke="#555" stroke-width="1"/>
+<text x="251.0" y="313" font-size="17" font-weight="600" text-anchor="middle" fill="#222">U-Net 概率分割</text>
+<text x="251.0" y="337" font-size="14" font-weight="400" text-anchor="middle" fill="#555">深度分块 → 重叠区平均 → 阈值二值化</text>
+<rect x="530" y="204" width="230" height="144" fill="#fff" stroke="#555" stroke-width="1"/>
+<text x="645.0" y="234" font-size="17" font-weight="600" text-anchor="middle" fill="#222">结构连续性修复</text>
+<text x="645.0" y="261" font-size="14" font-weight="400" text-anchor="middle" fill="#555">形态学闭运算</text>
+<text x="645.0" y="284" font-size="14" font-weight="400" text-anchor="middle" fill="#555">Hough 支持的短缺口连接</text>
+<text x="645.0" y="307" font-size="14" font-weight="400" text-anchor="middle" fill="#555">正弦拟合支持的轨迹修复</text>
+<rect x="810" y="204" width="194" height="144" fill="#f4f4f4" stroke="#555" stroke-width="1"/>
+<text x="907.0" y="234" font-size="17" font-weight="600" text-anchor="middle" fill="#222">识别成果</text>
+<text x="907.0" y="261" font-size="14" font-weight="400" text-anchor="middle" fill="#555">原始掩码</text>
+<text x="907.0" y="284" font-size="14" font-weight="400" text-anchor="middle" fill="#555">增强掩码</text>
+<text x="907.0" y="307" font-size="14" font-weight="400" text-anchor="middle" fill="#555">图像叠加预览</text>
+<path d="M448 238 L490 238 L490 276 L528 276" fill="none" stroke="#454545" stroke-width="1.25" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M448 318 H490" fill="none" stroke="#454545" stroke-width="1.2"/>
+<line x1="490" y1="318" x2="490" y2="276" stroke="#454545" stroke-width="1.2"/>
+<path d="M760 276 L808 276" fill="none" stroke="#454545" stroke-width="1.25" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="36" y="400" font-size="13" font-weight="400" text-anchor="start" fill="#666">经典后端为默认路径；指定模型后使用 U-Net。输出掩码以黑色表示裂隙、白色表示背景。</text>
+</g></svg>

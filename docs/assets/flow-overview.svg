@@ -1,58 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="917" height="280" viewBox="0 0 917 280" role="img" aria-labelledby="t">
-<title id="t">总体流程 · Overall workflow</title>
-<defs>
-<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker>
-<marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#777777"/></marker>
-</defs>
-<rect width="100%" height="100%" fill="#ffffff"/>
-<g font-family="Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', sans-serif">
-<text x="20" y="26" font-size="15" font-weight="bold" fill="#1a1a1a">总体流程 · Overall workflow</text>
-<line x1="20" y1="34" x2="897" y2="34" stroke="#d0d0d0" stroke-width="1"/>
-<rect x="20.0" y="68.5" width="137.8" height="72.0" rx="6" fill="#f2f2f2" stroke="#333333" stroke-width="1.2"/>
-<text x="88.9" y="90.5" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">孔壁展开图</text>
-<text x="88.9" y="113.5" font-size="12" fill="#555555" text-anchor="middle">图像清单</text>
-<text x="88.9" y="130.5" font-size="12" fill="#555555" text-anchor="middle">孔径 · 深度 · 方位</text>
-<rect x="191.8" y="56.0" width="98.2" height="97.0" rx="6" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.6"/>
-<circle cx="240.9" cy="56.0" r="10" fill="#1f3a5f" stroke="#ffffff" stroke-width="2"/>
-<text x="240.9" y="60.0" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
-<text x="240.9" y="84.0" font-size="14" font-weight="bold" fill="#1f3a5f" text-anchor="middle">裂隙识别与</text>
-<text x="240.9" y="103.0" font-size="14" font-weight="bold" fill="#1f3a5f" text-anchor="middle">连续性增强</text>
-<text x="240.9" y="126.0" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">segment</text>
-<text x="240.9" y="143.0" font-size="12" fill="#555555" text-anchor="middle">裂隙掩码</text>
-<rect x="324.0" y="56.0" width="116.9" height="97.0" rx="6" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.6"/>
-<circle cx="382.4" cy="56.0" r="10" fill="#1f3a5f" stroke="#ffffff" stroke-width="2"/>
-<text x="382.4" y="60.0" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
-<text x="382.4" y="84.0" font-size="14" font-weight="bold" fill="#1f3a5f" text-anchor="middle">裂隙聚类与</text>
-<text x="382.4" y="103.0" font-size="14" font-weight="bold" fill="#1f3a5f" text-anchor="middle">几何参数提取</text>
-<text x="382.4" y="126.0" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">characterize</text>
-<text x="382.4" y="143.0" font-size="12" fill="#555555" text-anchor="middle">实例 · 正弦参数</text>
-<rect x="474.8" y="56.0" width="113.0" height="97.0" rx="6" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.6"/>
-<circle cx="531.4" cy="56.0" r="10" fill="#1f3a5f" stroke="#ffffff" stroke-width="2"/>
-<text x="531.4" y="60.0" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
-<text x="531.4" y="84.0" font-size="14" font-weight="bold" fill="#1f3a5f" text-anchor="middle">粗糙度量化与</text>
-<text x="531.4" y="103.0" font-size="14" font-weight="bold" fill="#1f3a5f" text-anchor="middle">采样分析</text>
-<text x="531.4" y="126.0" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">roughness</text>
-<text x="531.4" y="143.0" font-size="12" fill="#555555" text-anchor="middle">Z2 · JRC</text>
-<rect x="621.9" y="56.0" width="116.9" height="97.0" rx="6" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.6"/>
-<circle cx="680.3" cy="56.0" r="10" fill="#1f3a5f" stroke="#ffffff" stroke-width="2"/>
-<text x="680.3" y="60.0" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
-<text x="680.3" y="84.0" font-size="14" font-weight="bold" fill="#1f3a5f" text-anchor="middle">三维重构与</text>
-<text x="680.3" y="103.0" font-size="14" font-weight="bold" fill="#1f3a5f" text-anchor="middle">勘探规划</text>
-<text x="680.3" y="126.0" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">reconstruct</text>
-<text x="680.3" y="143.0" font-size="12" fill="#555555" text-anchor="middle">连接评分 · 补孔</text>
-<rect x="772.8" y="77.0" width="124.6" height="55.0" rx="6" fill="#f2f2f2" stroke="#333333" stroke-width="1.2"/>
-<text x="835.0" y="99.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">可审查结果</text>
-<text x="835.0" y="122.0" font-size="12" fill="#555555" text-anchor="middle">CSV 表 · PNG 图</text>
-<path d="M157.8,104.5 L189.8,104.5" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<path d="M290.0,104.5 L322.0,104.5" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<path d="M440.8,104.5 L472.8,104.5" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<path d="M587.9,104.5 L619.9,104.5" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<path d="M738.8,104.5 L770.8,104.5" fill="none" stroke="#333333" stroke-width="1.3" marker-end="url(#a)"/>
-<rect x="619.6" y="183.0" width="121.4" height="55.0" rx="6" fill="#ffffff" stroke="#777777" stroke-width="1.2" stroke-dasharray="5 4"/>
-<text x="680.3" y="205.0" font-size="14" font-weight="bold" fill="#1a1a1a" text-anchor="middle">钻孔空间位置</text>
-<text x="680.3" y="228.0" font-size="12" fill="#555555" text-anchor="middle" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">boreholes.json</text>
-<path d="M680.3,183.0 L680.3,155.0" fill="none" stroke="#777777" stroke-width="1.3" stroke-dasharray="5 4" marker-end="url(#ad)"/>
-<text x="458.7" y="262.0" font-size="12" fill="#555555" text-anchor="middle">borehole-fracture run 依次执行 ①→④；每个阶段写出文件，也可单独调用</text>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="430" viewBox="0 0 1040 430" role="img" aria-labelledby="title desc">
+<title id="title">总体流程｜钻孔裂隙识别与三维重构</title><desc id="desc">WORKFLOW  ·  IMAGE → GEOMETRY → ROUGHNESS → SPATIAL MODEL</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#454545"/></marker></defs>
+<rect width="1040" height="430" fill="#fff"/>
+<g font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" fill="#222">
+<text x="36" y="37" font-size="22" font-weight="600" text-anchor="start" fill="#222">总体流程｜钻孔裂隙识别与三维重构</text>
+<text x="36" y="61" font-size="13" font-weight="400" text-anchor="start" fill="#666" letter-spacing="1.1">WORKFLOW  ·  IMAGE → GEOMETRY → ROUGHNESS → SPATIAL MODEL</text>
+<path d="M36 77 H1004" fill="none" stroke="#aaa" stroke-width="0.8"/>
+<rect x="36" y="99" width="220" height="46" fill="#f4f4f4" stroke="#aaa" stroke-width="0.8"/>
+<text x="146.0" y="128" font-size="15" font-weight="400" text-anchor="middle" fill="#222">钻孔展开图像与图像清单</text>
+<rect x="284" y="99" width="220" height="46" fill="#f4f4f4" stroke="#aaa" stroke-width="0.8"/>
+<text x="394.0" y="128" font-size="15" font-weight="400" text-anchor="middle" fill="#222">孔径、段长与起始深度</text>
+<rect x="780" y="99" width="224" height="46" fill="#f4f4f4" stroke="#aaa" stroke-width="0.8"/>
+<text x="892.0" y="128" font-size="15" font-weight="400" text-anchor="middle" fill="#222">钻孔空间坐标</text>
+<rect x="36" y="181" width="220" height="132" fill="#fff" stroke="#555" stroke-width="1"/>
+<text x="52" y="205" font-size="12" font-weight="400" text-anchor="start" fill="#777" letter-spacing="0.8">需求 01</text>
+<text x="146.0" y="232" font-size="17" font-weight="600" text-anchor="middle" fill="#222">裂隙识别</text>
+<text x="146.0" y="259" font-size="14" font-weight="400" text-anchor="middle" fill="#555">光照校正 · 像素分割</text>
+<text x="146.0" y="282" font-size="14" font-weight="400" text-anchor="middle" fill="#555">短缺口连接 · 连续性增强</text>
+<path d="M256 247 L282 247" fill="none" stroke="#454545" stroke-width="1.25" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="284" y="181" width="220" height="132" fill="#fff" stroke="#555" stroke-width="1"/>
+<text x="300" y="205" font-size="12" font-weight="400" text-anchor="start" fill="#777" letter-spacing="0.8">需求 02</text>
+<text x="394.0" y="232" font-size="17" font-weight="600" text-anchor="middle" fill="#222">几何参数提取</text>
+<text x="394.0" y="259" font-size="14" font-weight="400" text-anchor="middle" fill="#555">实例聚类 · 轮廓提取</text>
+<text x="394.0" y="282" font-size="14" font-weight="400" text-anchor="middle" fill="#555">正弦拟合 · 物理尺度标定</text>
+<path d="M504 247 L530 247" fill="none" stroke="#454545" stroke-width="1.25" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="532" y="181" width="220" height="132" fill="#fff" stroke="#555" stroke-width="1"/>
+<text x="548" y="205" font-size="12" font-weight="400" text-anchor="start" fill="#777" letter-spacing="0.8">需求 03</text>
+<text x="642.0" y="232" font-size="17" font-weight="600" text-anchor="middle" fill="#222">粗糙度量化</text>
+<text x="642.0" y="259" font-size="14" font-weight="400" text-anchor="middle" fill="#555">去趋势 · 多策略采样</text>
+<text x="642.0" y="282" font-size="14" font-weight="400" text-anchor="middle" fill="#555">Z₂ / JRC · 密度敏感性</text>
+<path d="M752 247 L778 247" fill="none" stroke="#454545" stroke-width="1.25" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="780" y="181" width="224" height="132" fill="#fff" stroke="#555" stroke-width="1"/>
+<text x="796" y="205" font-size="12" font-weight="400" text-anchor="start" fill="#777" letter-spacing="0.8">需求 04</text>
+<text x="892.0" y="232" font-size="17" font-weight="600" text-anchor="middle" fill="#222">三维重构与规划</text>
+<text x="892.0" y="259" font-size="14" font-weight="400" text-anchor="middle" fill="#555">裂隙平面 · 跨孔关联</text>
+<text x="892.0" y="282" font-size="14" font-weight="400" text-anchor="middle" fill="#555">不确定性评价 · 补孔排序</text>
+<path d="M146 145 L146 179" fill="none" stroke="#454545" stroke-width="1.25" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M394 145 L394 179" fill="none" stroke="#454545" stroke-width="1.25" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M892 145 L892 179" fill="none" stroke="#454545" stroke-width="1.25" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M892 313 L892 337" fill="none" stroke="#454545" stroke-width="1.25" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="36" y="339" width="968" height="46" fill="#f4f4f4" stroke="#aaa" stroke-width="0.8"/>
+<text x="520.0" y="368" font-size="15" font-weight="400" text-anchor="middle" fill="#222">统一成果：裂隙掩码 · 几何参数与轮廓 · 粗糙度对比 · 三维网络 · 补孔建议</text>
+<text x="36" y="412" font-size="13" font-weight="400" text-anchor="start" fill="#666">各阶段共用裂隙实例标识与物理坐标；实线表示处理流程，虚线表示外部标定与空间输入。</text>
+</g></svg>
